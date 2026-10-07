@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light"><title>Tool By Khắc Phong · Sileo</title>
+<meta name="description" content="Nguồn Sileo Tool By Khắc Phong. Tải gói dành cho Dopamine rootless hoặc RootHide.">
+<style>
+:root{--bg:#f3f5f9;--card:#fff;--navy:#111827;--muted:#5f6775;--border:#e5e7eb;--blue:#2563eb;--yellow:#fbbf24}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--navy);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:900px;margin:auto;padding:24px 16px 72px}.hero{background:var(--navy);border-radius:20px;padding:28px 24px;color:#fff}
+h1{font-size:clamp(26px,5vw,36px);line-height:1.2;margin:0 0 12px}h2{font-size:22px;line-height:1.3;margin:12px 0 4px}
+p{margin:8px 0;color:var(--muted)}.hero p{color:#b6bfcc}.hero .brand{color:var(--yellow);font-weight:700;margin-top:16px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}.card,.source{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;min-width:0}
+.card{display:flex;flex-direction:column}.scheme{font-weight:700;color:#374151}.version{font-size:15px;margin-bottom:12px}.compatibility{color:#111827;font-weight:600}.button{display:block;min-height:48px;margin-top:20px;padding:12px 16px;border:1px solid transparent;border-radius:10px;background:var(--blue);color:#fff;font:inherit;text-align:center;font-weight:650;text-decoration:none;overflow-wrap:anywhere;touch-action:manipulation;cursor:pointer}
+.button:hover{background:#1d4ed8}.button:active{background:#1e40af}.button:focus-visible{outline:3px solid #111827;outline-offset:4px}.button:disabled{opacity:.65;cursor:wait}.button.secondary{background:#fff;color:#374151;border-color:#d1d5db}.button.secondary:hover{background:#f3f5f9}.source{margin-top:20px}.source h2{margin-top:0}.address{color:var(--navy);overflow-wrap:anywhere;user-select:all}.source-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:20px}.source-actions .button{margin:0;display:flex;align-items:center;justify-content:center}.copy-status{min-height:1.6em;margin-bottom:0}
+@media(max-width:620px){main{padding-top:16px}.grid,.source-actions{grid-template-columns:1fr}.hero,.card,.source{padding:22px 20px}}
+</style></head><body><main><header class="hero"><h1>Kho công cụ Sileo</h1><p>Tải gói phù hợp với jailbreak của bạn.</p><p class="brand">Tool By Khắc Phong</p></header>
+<section class="grid" aria-label="Các gói cài đặt"><article class="card"><span class="scheme">Dopamine · Rootless</span><h2>KP Auto (Dopamine)</h2><p class="version">Phiên bản 0.3.0</p><p>Dành cho jailbreak rootless tiêu chuẩn.</p><p class="compatibility">iPhone 8 (A11) · iOS 16</p><a class="button" href="debs/com.khacphong.auto_0.3.0_iphoneos-arm64.deb" download>Tải .deb · Dopamine · Rootless</a></article><article class="card"><span class="scheme">RootHide</span><h2>KP Auto (RootHide)</h2><p class="version">Phiên bản 0.3.0</p><p>Dành cho jailbreak Dopamine RootHide.</p><p class="compatibility">iPhone 8 (A11) · iOS 16</p><a class="button" href="debs/com.khacphong.auto_0.3.0_iphoneos-arm64e.deb" download>Tải .deb · RootHide</a></article></section><section class="source" id="source" data-base-url="https://nhokcrazy.github.io/khac-phong-repo/"><h2>Địa chỉ nguồn Sileo</h2><p class="address" id="source-address">https://nhokcrazy.github.io/khac-phong-repo/</p><div class="source-actions"><a class="button" id="source-add" href="sileo://source/https://nhokcrazy.github.io/khac-phong-repo/">Thêm vào Sileo</a><button class="button secondary" id="source-copy" type="button" disabled>Sao chép URL</button></div><p class="copy-status" id="source-status" role="status" aria-live="polite" aria-atomic="true"></p></section></main><script>
+(function () {
+  'use strict';
+  var section = document.getElementById('source');
+  var address = document.getElementById('source-address');
+  var add = document.getElementById('source-add');
+  var copy = document.getElementById('source-copy');
+  var status = document.getElementById('source-status');
+  function sourceURL(value, currentPage) {
+    try {
+      if (typeof value !== 'string' || /[\s\\\x00-\x1f\x7f]/.test(value)) return null;
+      var authority = value.match(/^https:\/\/([^/?#]*)/i);
+      if (!authority || /[@%]/.test(authority[1])) return null;
+      var rawPath = value.slice(authority[0].length).split(/[?#]/)[0] || '/';
+      if (!/^\/[A-Za-z0-9._~/-]*$/.test(rawPath) || rawPath.indexOf('//') >= 0 ||
+          rawPath.split('/').some(function (part) { return part === '.' || part === '..'; })) return null;
+      var parsed = new URL(value);
+      if (parsed.protocol !== 'https:' || parsed.username || parsed.password ||
+          (parsed.port && parsed.port !== '443')) return null;
+      var host = parsed.hostname.toLowerCase(), labels = host.split('.');
+      if (labels.length < 2 || !labels.every(function (part) { return /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/.test(part); }) ||
+          /^[0-9]+$/.test(labels[labels.length - 1]) ||
+          ['localhost', 'local', 'internal', 'lan', 'home', 'test', 'invalid', 'example'].indexOf(labels[labels.length - 1]) >= 0) return null;
+      if (!currentPage && (parsed.search || parsed.hash)) return null;
+      if (!/^\/[A-Za-z0-9._~/-]*$/.test(parsed.pathname) || parsed.pathname.indexOf('//') >= 0) return null;
+      if (currentPage) parsed = new URL('./', parsed.href);
+      else parsed.pathname = parsed.pathname.replace(/\/+$/, '') + '/';
+      parsed.search = ''; parsed.hash = '';
+      return parsed.href;
+    } catch (_) { return null; }
+  }
+  var configured = section.getAttribute('data-base-url');
+  // Only our configured URL or the actual page location may choose the source.
+  // Query parameters, document.baseURI and referrer never choose a destination.
+  var source = sourceURL(configured || location.href, !configured);
+  if (!source) { section.hidden = true; return; }
+  address.textContent = source;
+  add.setAttribute('href', 'sileo://source/' + source);
+  copy.disabled = false;
+  section.hidden = false;
+  copy.addEventListener('click', async function () {
+    if (copy.disabled) return;
+    copy.disabled = true;
+    status.textContent = '';
+    try {
+      if (!navigator.clipboard || typeof navigator.clipboard.writeText !== 'function') throw new Error();
+      await navigator.clipboard.writeText(source);
+      status.textContent = 'Đã sao chép URL.';
+    } catch (_) {
+      status.textContent = 'Chưa sao chép được. Chạm giữ địa chỉ để sao chép.';
+    } finally { copy.disabled = false; }
+  });
+}());
+</script></body></html>

@@ -1,0 +1,20 @@
+Origin: Tool By Khắc Phong
+Label: Tool By Khắc Phong
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm64 iphoneos-arm64e all
+Components: main
+Description: Công cụ tự động hóa iPhone của Khắc Phong.
+Date: Wed, 07 Oct 2026 09:26:17 GMT
+MD5Sum:
+ 0fb65daddcd9a37cf3202c4202a7a079 1502 Packages
+ bab3485a1b304cd67e5dc63c58aac33c 743 Packages.gz
+ 00a18c709af0b476407ea53bda3f30ab 867 Packages.bz2
+SHA256:
+ 3dd99f4141343a7c44be831296db47253cdadc760913b128828e4f62f5b930d4 1502 Packages
+ 92c318bf790eedec300ec451b8358173d613e4f523bb1a13f1eff02a8c5dec77 743 Packages.gz
+ d553b52fd871d7f1065b620ca477948df163ab628685d18e0c32165ba684b2e3 867 Packages.bz2
+SHA512:
+ e61ae7a100c18be501ab923942d81a0b84aa64d1fb8c53ce06b32482873f56fd441808c67da95b9cb84f6f01e5a1cebecf7ad7fe715b6192a6669907417b4f59 1502 Packages
+ 59763c155670e9a8ce8aa75478180531a8036990b7d7f629d40181ed473180e5436b433444231cb558ccc42f39eb272a33da0dc0e032abb7a1b26d09d07c62d9 743 Packages.gz
+ 6ff6198c8c9c55385d25f89368599f24ec6d80a23ebe08623dd0e30b9eb4cb00e20c1368b4d0c2246be56ab95581f2ce9c6339713822972cf40cda5a6d75764c 867 Packages.bz2
