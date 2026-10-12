@@ -1,36 +1,36 @@
 Package: com.khacphong.auto
 Name: KP Auto (Dopamine)
-Version: 0.3.1
+Version: 0.8.3
 Architecture: iphoneos-arm64
-Description: On-device JavaScript automation with app control, touch and WKWebView DOM access.
+Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
 Author: Khac Phong
 Section: Utilities
 Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.3.1_iphoneos-arm64.deb
-Size: 289610
-MD5sum: 96fc525c57bf382cd6dae0b92caacd57
-SHA1: a41926fcd5cb295e66bdb19540d633957cf3ade2
-SHA256: 70cdf30b5ef9971fc364ca71f06e51b90c149fe341ad513184f0fd3d231bf98d
-SHA512: 209c0d0e29ad7445775dbabdac27f2b0f711595936c0921e5c10f1d2d40105158337d8559e99344dbb2878b9093df7ec6e476cddce925c80986e56ea4581f403
+Filename: debs/com.khacphong.auto_0.8.3_iphoneos-arm64.deb
+Size: 1898710
+MD5sum: c0b76759fda17a65379e2930a2334e02
+SHA1: 7629131d8f5f85a61fff4e94aa7407a72a908684
+SHA256: b3adb4b23b92ff504f45266dbae92bcd8f90670410aad2aba8a26e177640e829
+SHA512: babc4e5f369e2f6689e3e5b42c615186a2fd30d7c5ded8d347c1d0ed3643b7250f155ac19dbe350f872706336e25fd99715e9eb9291f2ed43ab727b6a0b6ef20
 
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
-Version: 0.3.1
+Version: 0.8.3
 Architecture: iphoneos-arm64e
-Description: On-device JavaScript automation with app control, touch and WKWebView DOM access.
+Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
 Author: Khac Phong
 Section: Utilities
 Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.3.1_iphoneos-arm64e.deb
-Size: 287130
-MD5sum: bcfa83a1434016fde5cf8ec4aac5da44
-SHA1: 9a79b415d478c84f61a619a4bfc29e7fee47f4a9
-SHA256: 8785f5803a313d67f4034e583c843b3d72279e2f3ac8a9f078e0866f75cc9a8f
-SHA512: 791f26f7292b3d05ef3ae2561eb6bf40fd767be4347e7d3a4d2a8613505ac928e36d30f71d43dbba10a1ffc7093541554dcbae9c18b5ef21d90300065b0d39b5
+Filename: debs/com.khacphong.auto_0.8.3_iphoneos-arm64e.deb
+Size: 1896932
+MD5sum: b315065508593bb07487b87b8709ebd7
+SHA1: f5c8cc17e16c83cb0732cd2e8a28d6a529512774
+SHA256: 9561145932157241daa456f2f04740f5b97fd2c4d30110fa1a3606a8844ddca9
+SHA512: 047d7789225b82bf87cbc316ac1802b88b2b33c286d1dcd11aa7ab0532b005b01fa04264606d6c96e8952a67fb90395a5cc021f528e79f92ad0368cd9a03db94
 
