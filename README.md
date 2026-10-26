@@ -1,8 +1,9 @@
-# KP Auto 0.9.0
+# KP Auto 0.9.2
 
-Bỏ tab Backup và chức năng sao lưu/làm trắng, khôi phục iAEON khỏi ứng dụng.
-Dashboard và Kịch bản giữ nguyên. Bản cập nhật giữ các bản sao đã lưu,
-kịch bản, DATA, cấu hình và kết quả trên máy.
+Bổ sung native cho Yamada CYUSEN gửi báo cáo với key KP Auto che một nửa.
+Giữ hỗ trợ Yamada Register, Crane và các bản sửa native của 0.9.1.
+Giữ DATA, cấu hình, lịch sử, kết quả và các kịch bản trên máy khi cập nhật.
 
-Hai gói riêng dành cho Dopamine rootless và Dopamine RootHide trên iOS 16.
-Chọn đúng loại jailbreak khi cài từ Sileo.
+Chọn gói RootHide hoặc Dopamine rootless đúng với jailbreak của thiết bị.
+Mỗi loại hỗ trợ iPhone 8 và SE2 trên iOS 16. File JS CYUSEN 1.0.13 được
+cập nhật riêng; gói native không chứa JS riêng, webhook hoặc dữ liệu khách.
