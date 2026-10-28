@@ -1,6 +1,6 @@
 Package: com.khacphong.auto
 Name: KP Auto (Dopamine)
-Version: 0.9.4
+Version: 0.9.5
 Architecture: iphoneos-arm64
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -9,16 +9,16 @@ Section: Utilities
 Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.4_iphoneos-arm64.deb
-Size: 5455340
-MD5sum: a10669499000c8dadb523e51e308f3a4
-SHA1: 364610822f9e4b90dbb8a74ca2ede986bb70d0cb
-SHA256: 07c1cc33eb2ed1c730884daf57bba36f6397c27ad7d3a2da359dce4ca1dce896
-SHA512: b14cb2c7a8920527f2055d7c10e2b89384ffc66ad0f61a2c8200d3ea0b6932cad2b211a1c8b53256f776f8b480e876c3f980cae0602471db85b15ef65871e92c
+Filename: debs/com.khacphong.auto_0.9.5_iphoneos-arm64.deb
+Size: 5505398
+MD5sum: 564bd58af5637b3efe1a0e24d733cd1f
+SHA1: 38aa67680c69d1569d57f317409e9472c7304051
+SHA256: 8fa25529547e77619ae7ba80269fe43650c975f3b788af8c79a47a01aa149eba
+SHA512: 3e2d0ca05c4f67d9b5d2fc172d6a860c135ceff3f79256acf8f748c75edbcf75fcbfa723283383f9fb3c7a13b50486c533930a7f4a50bf8af33a420084c86394
 
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
-Version: 0.9.4
+Version: 0.9.5
 Architecture: iphoneos-arm64e
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -27,10 +27,10 @@ Section: Utilities
 Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.4_iphoneos-arm64e.deb
-Size: 5454596
-MD5sum: 36bf20b3a3c60ccc18ee60fd86436d36
-SHA1: 46fb1c4d8b65ee5ee5b0fdc93d91f51a7a80ce19
-SHA256: 5f5a249dae6e0882d3cfaf1886a1b3886d4889152fcb4777da418b556da1e218
-SHA512: de5685b96f0c717ad83e3faf871dbe860dcc6f2d9ea37e204f0932a1795d76fed1cb0c83db822a7549c3da3dffbe7b533dd6cb992b42a1a91ca2bb04ab32ed61
+Filename: debs/com.khacphong.auto_0.9.5_iphoneos-arm64e.deb
+Size: 5504582
+MD5sum: 2262a3a0264aa011d5a9665442272422
+SHA1: f5b5c30f295a52c24e9dd097f09bb1caeb3cd2ba
+SHA256: 3cc6fc7e9bb6d427c1f7afeaea06b055a3c5680d53340f0a485fc62ac29e9c4e
+SHA512: 0e2a47c976765a1df119e52a6211f94d83e116e07de3b9f1a952bbbbcfd9df6c1abfeb2eb6b62e9c9472e56dda16a00f4f08f4f6381c13d56c922e045e54f8ff
 

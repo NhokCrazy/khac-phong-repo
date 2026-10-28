@@ -1,7 +1,7 @@
-# KP Auto 0.9.4
+# KP Auto 0.9.5
 
-Bổ sung lease UIKit theo phiên để giữ màn hình CHECK trong Chrome và bộ điều khiển.
-Kiểm tra khóa màn hình mới trước thao tác, tránh dùng trạng thái khóa cũ.
+Hiển thị tiến trình và bước hiện tại của CHECK trong popup khi tool đang chạy.
+Giữ các sửa lỗi Chrome, Crane, trạng thái khóa và lease UIKit của bản 0.9.4.
 Bổ sung nhập CSV và cấu hình ẩn sửa JS cho tool có khai báo chức năng tương ứng.
 Bổ sung báo cáo CHECK với key KP Auto che một nửa; giữ hỗ trợ Yamada/CYUSEN.
 Giữ DATA, cấu hình, lịch sử, kết quả, kịch bản và license khi cập nhật.
