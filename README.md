@@ -1,9 +1,10 @@
-# KP Auto 0.9.2
+# KP Auto 0.9.3
 
-Bổ sung native cho Yamada CYUSEN gửi báo cáo với key KP Auto che một nửa.
-Giữ hỗ trợ Yamada Register, Crane và các bản sửa native của 0.9.1.
-Giữ DATA, cấu hình, lịch sử, kết quả và các kịch bản trên máy khi cập nhật.
+Cập nhật khởi chạy Crane, vòng vùng chứa Chrome tạm và giữ màn hình cho CHECK.
+Bổ sung nhập CSV và cấu hình ẩn sửa JS cho tool có khai báo chức năng tương ứng.
+Bổ sung báo cáo CHECK với key KP Auto che một nửa; giữ hỗ trợ Yamada/CYUSEN.
+Giữ DATA, cấu hình, lịch sử, kết quả, kịch bản và license khi cập nhật.
 
-Chọn gói RootHide hoặc Dopamine rootless đúng với jailbreak của thiết bị.
-Mỗi loại hỗ trợ iPhone 8 và SE2 trên iOS 16. File JS CYUSEN 1.0.13 được
-cập nhật riêng; gói native không chứa JS riêng, webhook hoặc dữ liệu khách.
+Chọn đúng gói RootHide hoặc Dopamine rootless trên iOS 16.
+File JS riêng của tool được cập nhật riêng. Gói native không chứa webhook,
+tài khoản hoặc dữ liệu khách hàng.

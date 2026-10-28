@@ -1,6 +1,6 @@
 Package: com.khacphong.auto
 Name: KP Auto (Dopamine)
-Version: 0.9.2
+Version: 0.9.3
 Architecture: iphoneos-arm64
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -9,16 +9,16 @@ Section: Utilities
 Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.2_iphoneos-arm64.deb
-Size: 5361388
-MD5sum: 7684020b93ed2e3297837b273b9985a8
-SHA1: f722afab209dd27197f877340eea89f6eb657a79
-SHA256: 266be0c37bbe3927aaedb64e731cf11ee3a0f0e50edfcf8c5ceb9e16ca03b16d
-SHA512: b8291aa1ff259354cd4e9dabba9c6c6c6fc452e44ea49bc735ab7688ec2286a135157206bb2a03e49dede76593196d5faaa0fea5ca20b4c7105267b7013d9a67
+Filename: debs/com.khacphong.auto_0.9.3_iphoneos-arm64.deb
+Size: 5412462
+MD5sum: 1265ed67a4256cc4794580e7e656ba13
+SHA1: 08ecfe261e2a1821b0eed0772bbc49267d262fe2
+SHA256: 2d60cb47fa7d5e866b356ba2f5b109c261423e2c90877420784c118d6d75a769
+SHA512: e59dd857d9ca04e84190e8cafaaa995f8bf11119102a6a9717a31dbf5dae17c0f7139c467585a74083dfb39c483d509c8c87a72921ceb50787b6bd7ec22d3054
 
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
-Version: 0.9.2
+Version: 0.9.3
 Architecture: iphoneos-arm64e
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -27,10 +27,10 @@ Section: Utilities
 Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.2_iphoneos-arm64e.deb
-Size: 5361478
-MD5sum: d55b24dab84d55938735052c8225cac8
-SHA1: 732d474d52dc225f33e409c46cee2bfe3b93162e
-SHA256: b2374a74d4124668ad46a82deb946e8af1180cc4cbd7f2deafca0a2c6f45a0b3
-SHA512: 0555b562bd4c7277409c0140c6e962b539c0648f99c66af886e4a5648e106e338325edc4146758f07ed160bff06c14adf915802acb6ff376594c3d86a9e3992e
+Filename: debs/com.khacphong.auto_0.9.3_iphoneos-arm64e.deb
+Size: 5411464
+MD5sum: bddcf344dcf603dc15621fd513dfaffd
+SHA1: cd4fd4977ac65073ecfcf51ef2b43a56014d1079
+SHA256: 4ef863fe4326800a85019a8a9f777501c4bde9cb0dd8ac9c2a0c75dde1572373
+SHA512: f02724a7805304f6541c56824b03c5b35ba5c34fadc7e4462312c1dfd3786266cbd37f79ff00063a34caf71aca852e029bf179984dc90adf3e245dbdc90b432c
 
