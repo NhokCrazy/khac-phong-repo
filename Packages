@@ -1,6 +1,6 @@
 Package: com.khacphong.auto
 Name: KP Auto (Dopamine)
-Version: 0.9.10
+Version: 0.9.11
 Architecture: iphoneos-arm64
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -9,16 +9,16 @@ Section: Utilities
 Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.10_iphoneos-arm64.deb
-Size: 5494038
-MD5sum: 433101849e9ddb7e3712036005a451c8
-SHA1: 0afe97a79fe4c6436fc5a70b8407a7b8324c924e
-SHA256: fe071ac81841f13f9b024d869ef9f96f010e5ca4ca46f2148a80e1702ce7301b
-SHA512: e64715465c825b695e7fe15de228fdc0b892deef74a569e66489cca9323b990e58fed7b1ab02a7dc56d4ac4aedb7532c4b9b01c9a5e8517cd851c4f7889a792e
+Filename: debs/com.khacphong.auto_0.9.11_iphoneos-arm64.deb
+Size: 5496958
+MD5sum: 437a2b99873c596390158ee88456220f
+SHA1: 696bef34f7901df39a08bf577c9a1cef887f7766
+SHA256: d86cd69af3fe7e3948cc78e9a4c4a2adaac08b743ff99fbbbd5c166765614c95
+SHA512: 12266b6d011d06f0701be3287958c6b1941842fa44c0b0d99e6c96c1467205b705a467a9b8c0cd2a9f7ce9c5048f3e1d7e3b15539117578a4be97ca65b6bcddb
 
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
-Version: 0.9.10
+Version: 0.9.11
 Architecture: iphoneos-arm64e
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -27,10 +27,10 @@ Section: Utilities
 Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.10_iphoneos-arm64e.deb
-Size: 5493198
-MD5sum: c284db3b365fb0679a99679bd1a05e5f
-SHA1: 95c5998c75ca0ecd4d3994faa1fca7e2af222ac9
-SHA256: 9b05848761f6944d33c0d5627f07fcb081a7fe4d987a0631798efa5cff910839
-SHA512: 1fd0fbf38898d05edc954e7d36a956f23380f735f9732519f78073fc7a0bf7e354a8f428e324a25667cbaa01a065a1049030b0dd6651a8d8ebfc4b0da08ff07f
+Filename: debs/com.khacphong.auto_0.9.11_iphoneos-arm64e.deb
+Size: 5495864
+MD5sum: 44cc96c555d384194f91d03ab490933b
+SHA1: 97a9bbbb66cb49075095837744aff6b35d57561f
+SHA256: 8b6339bb54b5049eb5ceec9122acb1e6d605c1893729f97a1d2f3a6aec36144b
+SHA512: 098ea09ceb7b062a7ec4aa8d18cc05e5dfb15cba4d3e2cef78f3ab9226d9e4e9db305c904f78302ac2482b0346f64824504247c9b0573e94656ec067f9887d01
 
