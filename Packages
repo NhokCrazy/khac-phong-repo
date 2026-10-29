@@ -1,6 +1,6 @@
 Package: com.khacphong.auto
 Name: KP Auto (Dopamine)
-Version: 0.9.9
+Version: 0.9.10
 Architecture: iphoneos-arm64
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -9,16 +9,16 @@ Section: Utilities
 Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.9_iphoneos-arm64.deb
-Size: 5488454
-MD5sum: 431e879c85752b2dc1f8b71f1fe0c8a8
-SHA1: 480ee115339a8f0d6cc817a4fed9657982b91c6f
-SHA256: 66f8a226808b6fda6686d2d9b6bce2e2d33e8e7795fee36a6958fc893c56d3af
-SHA512: 89c0f338374a7f50dc4dc3688e4bdab4c0d8b50abb4f7cf02bd2ed7ed35817c215940271027f3448f14624701acd3c024328b1dc5558b68ff83f81e65417dd62
+Filename: debs/com.khacphong.auto_0.9.10_iphoneos-arm64.deb
+Size: 5494038
+MD5sum: 433101849e9ddb7e3712036005a451c8
+SHA1: 0afe97a79fe4c6436fc5a70b8407a7b8324c924e
+SHA256: fe071ac81841f13f9b024d869ef9f96f010e5ca4ca46f2148a80e1702ce7301b
+SHA512: e64715465c825b695e7fe15de228fdc0b892deef74a569e66489cca9323b990e58fed7b1ab02a7dc56d4ac4aedb7532c4b9b01c9a5e8517cd851c4f7889a792e
 
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
-Version: 0.9.9
+Version: 0.9.10
 Architecture: iphoneos-arm64e
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -27,10 +27,10 @@ Section: Utilities
 Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.9_iphoneos-arm64e.deb
-Size: 5488100
-MD5sum: 4e2ea31b8a0bee95e81b2934ff4eaa5d
-SHA1: 9cf2264dcc459a316c72d36e4a2c511bbafad91a
-SHA256: 3863b5d9506b7cb6eb282170d7d99424ccdd2682a93f0ddb698e1b1c9ddef3e2
-SHA512: fd9d1345879540f88c7879d872f48a455e2dc50eb044b11e9aa15358cd8157ce74c2648a6e1cacc0d464a8bc2238ebef8dfda8c81b1f5ab5e589f67f10c48816
+Filename: debs/com.khacphong.auto_0.9.10_iphoneos-arm64e.deb
+Size: 5493198
+MD5sum: c284db3b365fb0679a99679bd1a05e5f
+SHA1: 95c5998c75ca0ecd4d3994faa1fca7e2af222ac9
+SHA256: 9b05848761f6944d33c0d5627f07fcb081a7fe4d987a0631798efa5cff910839
+SHA512: 1fd0fbf38898d05edc954e7d36a956f23380f735f9732519f78073fc7a0bf7e354a8f428e324a25667cbaa01a065a1049030b0dd6651a8d8ebfc4b0da08ff07f
 

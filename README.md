@@ -1,10 +1,8 @@
-# KP Auto 0.9.9
+# KP Auto 0.9.10
 
-Sửa CHECK Premium Bandai bị dừng khi ứng dụng quản lý rời màn hình.
-Phiên CHECK dùng nhóm tiến trình và phiên hệ điều hành riêng.
-Giữ sửa nhãn vùng chứa Chrome tạm, kiểm tra UUID và biên nhận.
-Giữ DATA, cấu hình, lịch sử, kết quả và vùng chứa đã có.
-Mở lại tool về Sẵn Sàng, không tự chạy tiếp.
-Gói hỗ trợ RootHide và Dopamine rootless trên iOS 16.
-CHECK JavaScript 1.0.14 được cài riêng, không nhúng trong DEB.
-Gói native không chứa webhook, tài khoản hoặc dữ liệu khách hàng.
+Bổ sung bộ chạy riêng cho Premium Bandai đổi địa chỉ đơn trên Chrome.
+Hỗ trợ nhiều đơn mỗi lượt, DATA CSV, phiên mới Sẵn Sàng và popup tiến trình hai dòng.
+Tên, số điện thoại và thanh toán giữ nguyên theo lựa chọn của tool.
+Giữ DATA, cấu hình, kết quả và các tool hiện có.
+RootHide và Dopamine rootless, iOS 16.
+Tool JavaScript được cài riêng; gói native không chứa tài khoản hoặc webhook.
