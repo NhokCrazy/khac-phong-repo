@@ -1,12 +1,19 @@
-# KP Auto 0.9.6
+# KP Auto 0.9.7
 
-Thu gọn popup CHECK và đặt ở phía trên màn hình, hiển thị bước đang chạy.
-Bỏ chức năng giữ màn hình sáng; tool dùng cài đặt tự khóa hiện tại của iPhone.
-Giữ các sửa lỗi Chrome, Crane và kiểm tra trạng thái khóa mới.
-Bổ sung nhập CSV và cấu hình ẩn sửa JS cho tool có khai báo chức năng tương ứng.
-Bổ sung báo cáo CHECK với key KP Auto che một nửa; giữ hỗ trợ Yamada/CYUSEN.
+Bộ chạy giải phóng bộ nhớ tạm sau từng lệnh native và mỗi vòng chờ, tránh
+cộng dồn các đối tượng tạm trong lượt CHECK nhiều tài khoản. Bổ sung biên nhận
+dừng native không chứa tài khoản, mật khẩu hoặc nội dung trang để kiểm tra sự cố.
+
+CHECK JavaScript 1.0.13 được cập nhật riêng, không nhúng trong gói DEB.
+Lỗi đã xác định ở từng tài khoản được lưu FAIL rồi chuyển sang tài khoản kế
+sau khi xác nhận đóng Chrome và chế độ máy bay OFF. DATA và vùng chứa của tài
+khoản lỗi được giữ để kiểm tra; thao tác Crane hoặc mạng chưa rõ vẫn dừng để
+đối chiếu, không tự lặp lại.
+
+Giữ popup CHECK nhỏ phía trên, hiển thị bước và thời gian đang chạy; dùng
+cài đặt tự khóa hiện tại của iPhone. Giữ các bản sửa Chrome, Crane, CSV,
+báo cáo CHECK với key che một nửa và hỗ trợ Yamada/CYUSEN.
 Giữ DATA, cấu hình, lịch sử, kết quả, kịch bản và license khi cập nhật.
 
-Chọn đúng gói RootHide hoặc Dopamine rootless trên iOS 16.
-File JS riêng của tool được cập nhật riêng. Gói native không chứa webhook,
-tài khoản hoặc dữ liệu khách hàng.
+Chọn đúng gói RootHide hoặc Dopamine rootless trên iOS 16. Gói native không
+chứa webhook, tài khoản hoặc dữ liệu khách hàng.
