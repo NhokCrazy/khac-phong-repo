@@ -34,3 +34,35 @@ SHA1: 524d8d7d31c18f147fd0afec5ca66588ab1c92f6
 SHA256: 1e18141c2d3f41177594f02ee0c4248be8a8b6c3070d37ceb12d232cd584ed1f
 SHA512: 0a94d57cbe71ab068d02f9d55b9ca9ceb4ebf5469f4382e29d3d15a09a626d8b9bdc97d6dc5f2d77ae825b2c0c5b7817a0aa0b21b9562f7f71f464ae7d889bff
 
+Package: com.proxymanager.native
+Name: ProxyManager Native
+Version: 0.1.3-1
+Architecture: iphoneos-arm64e
+Description: Native airplane cycle and authenticated outbound control for ProxyManager (Dopamine RootHide).
+Maintainer: ProxyManager
+Author: ProxyManager
+Section: Utilities
+Depends: firmware (>= 16.0), firmware (<< 17.0), roothide, uikittools
+Filename: debs/com.proxymanager.native_0.1.3-1_iphoneos-arm64e.deb
+Size: 75474
+MD5sum: a8a04e17b6f0466ada4c037fe928542e
+SHA1: 9c3176b6b333f1589bb9e610aa7e625e3e104b9b
+SHA256: 1fdf5e360d56ba78db72a5b27a10a645f881e7ee0c6c274cb6f125d0c99998cc
+SHA512: 9f94b449e6c9e7596e8c8fcca6b6685e40ea97e48675351724b45ee604af21c47c28e635e481bdf0e4abf51284ce4ee08a3dbc1859c8181441bad79be5bddc83
+
+Package: com.proxymanager.usb
+Name: ProxyManager USB
+Version: 0.3.0-1
+Architecture: iphoneos-arm64e
+Description: USB cellular proxy and first-time VPS synchronization for Windows ProxyManager.
+Maintainer: ProxyManager
+Author: ProxyManager
+Section: Utilities
+Depends: firmware (>= 16.0), firmware (<< 17.0), roothide, com.proxymanager.native (>= 0.1.3-1)
+Filename: debs/com.proxymanager.usb_0.3.0-1_iphoneos-arm64e.deb
+Size: 30194
+MD5sum: 5d55cf4ba23173debd47c0c74bbc7eea
+SHA1: 51b50da8735258c641b8e0645880803daa51b69f
+SHA256: bf2e54b22f4a84a8f55675e1cf319dcda66d1b3b5346cff7a81381c7878fa059
+SHA512: e577a04e101d6273ce896ebab0d7c64c8cc4e840cb1a07e923919011cfc6853270f2d2d90318d2d7866d86de33bfaf7710f2c00b47617f79d22ec9b50638c4d2
+
