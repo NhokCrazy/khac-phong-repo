@@ -1,6 +1,7 @@
-# KP Auto 0.9.12
+# KP Auto 0.9.13
 
-Bổ sung quy chuẩn Register trên Chrome: popup hai dòng, CSV giữ nguyên chuỗi và dọn đúng thư xác minh IMAP.
+Register dùng dữ liệu không có TEL; số điện thoại được lấy qua Fuyoura khi chạy.
+Giữ nguyên Chrome, Crane riêng, quy tắc đổi số sau40giây và dọn đúng thư xác minh IMAP.
 Hỗ trợ iPhone 8 và SE2; giữ kiểm tra IMAP/Fuyoura trong SETTING và phiên mới Sẵn Sàng.
 Dữ liệu, kết quả và biên nhận không bị xóa khi mở lại tool.
 Giữ DATA, cấu hình, kết quả và các tool hiện có.
