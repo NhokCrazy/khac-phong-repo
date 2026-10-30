@@ -1,8 +1,8 @@
-# KP Auto 0.9.11
+# KP Auto 0.9.12
 
-Bổ sung CSV địa chỉ riêng từng tài khoản cho Premium Bandai đổi địa chỉ đơn trên Chrome.
-Hỗ trợ nhiều đơn mỗi lượt, DATA CSV, phiên mới Sẵn Sàng và popup tiến trình hai dòng.
-Tên, số điện thoại và thanh toán giữ nguyên theo lựa chọn của tool.
+Bổ sung quy chuẩn Register trên Chrome: popup hai dòng, CSV giữ nguyên chuỗi và dọn đúng thư xác minh IMAP.
+Hỗ trợ iPhone 8 và SE2; giữ kiểm tra IMAP/Fuyoura trong SETTING và phiên mới Sẵn Sàng.
+Dữ liệu, kết quả và biên nhận không bị xóa khi mở lại tool.
 Giữ DATA, cấu hình, kết quả và các tool hiện có.
 RootHide và Dopamine rootless, iOS 16.
 Tool JavaScript được cài riêng; gói native không chứa tài khoản hoặc webhook.
