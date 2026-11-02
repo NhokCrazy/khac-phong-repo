@@ -1,38 +1,38 @@
 Package: com.khacphong.auto
 Name: KP Auto (Dopamine)
-Version: 0.9.26
+Version: 0.9.27
 Architecture: iphoneos-arm64
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
 Author: Khac Phong
 Section: Utilities
 Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
-X-KP-Compatibility: iPhone 8/X, SE2 vÃ  A12+ Â· iOS 16
+X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.26_iphoneos-arm64.deb
-Size: 5566784
-MD5sum: 18ee858a7f8dbb9fc2aa9803b2166427
-SHA1: 53d7a30b96ee15f55684f0cb54b8e1d6c9558acf
-SHA256: 5520e9107ad6f7fdbea26a686ddf4cee124b3773ec287763aa5170b7806202c9
-SHA512: 2dabc3d3d954ae483a779288c96686bfa14880cd9f97c44b4e46953202f5d3e59941d7eae4996f73c731f5d98eab7b9ce14a98e60bd7ce0e5025e65d4e794a3c
+Filename: debs/com.khacphong.auto_0.9.27_iphoneos-arm64.deb
+Size: 5566926
+MD5sum: e56d412800abbe9a56a124df5174a8f5
+SHA1: 9624916a90ed22cbe2712e3dc3fb7133faacc4ea
+SHA256: 6c43b454e4637501ceb74b78e9357af9d7128b49c4b524f4ecef24bfa3d6f72e
+SHA512: 7d436f5cfdfd18b205b9220283af45c7fc0e4288a19aadf4923382941371b46271994de80f55857163beef824f6480ab84fa1ad430398c7c3386e1af1f74ff96
 
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
-Version: 0.9.26
+Version: 0.9.27
 Architecture: iphoneos-arm64e
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
 Author: Khac Phong
 Section: Utilities
 Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
-X-KP-Compatibility: iPhone 8/X, SE2 vÃ  A12+ Â· iOS 16
+X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.26_iphoneos-arm64e.deb
-Size: 5566330
-MD5sum: 36c02fada6f2144c7dc28fb914789423
-SHA1: 05ea80e5a7a98d1e703a4ffb02bcdc0af0e6a1a9
-SHA256: deba6430bedeb5b0cbda3b3311e4a11b67403ec64c94fea8fdb5a70d7c187cf2
-SHA512: 50a2100db6ca134771666ccae21f636d3368cd0c1493d9731a7a08b4ca5a2002a90afe55cdc4ddfd0660530476e2778c06ef006d8ce96707e4056bb43375db59
+Filename: debs/com.khacphong.auto_0.9.27_iphoneos-arm64e.deb
+Size: 5566252
+MD5sum: 1761905a943e89e7752a83a13166e39f
+SHA1: d7f7f754d6c90fab6b5b351ab7d068d10ec36853
+SHA256: f4c81a7987858f04e6f863a2aca09d4d6784897a4a33c368be997b2bb3145891
+SHA512: bcefbebcbf5bb53c512ca6c63c0b7973a7c049727d3ed5f72cdde48bb3efe1d7c932559c9dc2024093bb9802a928283ea3ec8e0110509e625614bdccbf726100
 
 Package: com.proxymanager.native
 Name: ProxyManager Native
