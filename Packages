@@ -1,6 +1,6 @@
 Package: com.khacphong.auto
 Name: KP Auto (Dopamine)
-Version: 0.9.34
+Version: 0.9.35
 Architecture: iphoneos-arm64
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -9,16 +9,16 @@ Section: Utilities
 Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.34_iphoneos-arm64.deb
-Size: 5623110
-MD5sum: 55389cc422144a384639f284d57a176c
-SHA1: cb7cb033468456760261b4e1608a7cae8ba9b382
-SHA256: 5c30dd97e7c09753d276dda83c62e4ab6eb8e5a59d3ccc75178b0c4664891fd8
-SHA512: 75b196875f25c85e42cd79e8d8ae69caca74669fca1d42f1cd517e8a6139653732f921e9027778964fb46a27cc22d2238e69e13d526016cdc942955f03dd1e1b
+Filename: debs/com.khacphong.auto_0.9.35_iphoneos-arm64.deb
+Size: 5638690
+MD5sum: a261ab48542635aa8d30ac1fb0a588d8
+SHA1: 97cb3af76a95ac93b546bd1b224babc88e451835
+SHA256: 58d92557af285981ac8eed74d0921ec63cc058aacc869bd0811fd813fe6d6d00
+SHA512: c0699d1649705b5e1203790e584381a2d3c51c7aa3ab2c29fea4f4cdb0a98dc0b6a4bb61131c613f35dd689a6c17346097585ec0d3ee28161c0bcce2af8a613c
 
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
-Version: 0.9.34
+Version: 0.9.35
 Architecture: iphoneos-arm64e
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
 Maintainer: Khac Phong
@@ -27,12 +27,12 @@ Section: Utilities
 Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
 X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
 Tag: role::enduser
-Filename: debs/com.khacphong.auto_0.9.34_iphoneos-arm64e.deb
-Size: 5622922
-MD5sum: 0039fd4707afd20351105e6d5b65d6e0
-SHA1: 56746e153b37f10be24a51422e0691b7817cc782
-SHA256: 394ca21d17893b609913fab53652a0a2f9bfbef05ce1e765de027ede7628b9bc
-SHA512: 64a05a08d05e91ba1ec93a810e071c7d2f80b05067512bf48f490f1c2e63fcd576c203176d77a4681359c4948faf517c291f3bef9040906a79f6eaa65a8356c5
+Filename: debs/com.khacphong.auto_0.9.35_iphoneos-arm64e.deb
+Size: 5638084
+MD5sum: a8031fb5ff4612466291520353af0f14
+SHA1: 0cddcda35810dca1b3c4988c7805b2b8610a2528
+SHA256: 21955524e79d1b6805a19f39ee474784f74d6604544102113bc8589b36582bdb
+SHA512: f41ce62ff5300ad2c6ec879ed2006d54c6e13183e6253855cadc4936be84cc6916d287bd20200c73bb4bc0b31f0f343bc084d80a03b1d955bc5524dfaa652ffa
 
 Package: com.proxymanager.native
 Name: ProxyManager Native
