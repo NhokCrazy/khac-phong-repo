@@ -1,5 +1,41 @@
 Package: com.khacphong.auto
 Name: KP Auto (RootHide)
+Version: 0.9.64-1
+Architecture: iphoneos-arm64e
+Description: On-device element recording, floating controls, DATA and visual conditional workflows.
+Maintainer: Khac Phong
+Author: Khac Phong
+Section: Utilities
+Depends: roothide, ellekit, firmware (>= 16.0), firmware (<< 17.0)
+X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
+Tag: role::enduser
+Filename: debs/com.khacphong.auto_0.9.64-1_iphoneos-arm64e.deb
+Size: 7927128
+MD5sum: 90058f45d9108a2605f9729e04215849
+SHA1: 65b149e56ab5ec90104a2f38d631aae4574e4539
+SHA256: 358f6557951685b0bd08c540586f07eb3e8f9c1d55246236243a322907c07e8a
+SHA512: 1d091f85c5a269a90311603cee75cda14d05457ce3c6d851c81788873f2520facacfa7725353acdd579aab55ca5b58fd54ad947b72505b8a1dc2502f32ecb700
+
+Package: com.khacphong.auto
+Name: KP Auto (Dopamine)
+Version: 0.9.64-1
+Architecture: iphoneos-arm64
+Description: On-device element recording, floating controls, DATA and visual conditional workflows.
+Maintainer: Khac Phong
+Author: Khac Phong
+Section: Utilities
+Depends: ellekit, firmware (>= 16.0), firmware (<< 17.0)
+X-KP-Compatibility: iPhone 8/X, SE2 và A12+ · iOS 16
+Tag: role::enduser
+Filename: debs/com.khacphong.auto_0.9.64-1_iphoneos-arm64.deb
+Size: 7927356
+MD5sum: 750211b932f462206284125f92d8e7ee
+SHA1: 897296e35e48b7cb39f12481af1831e0de12614f
+SHA256: ecea0c088e257c3978aa2a1ff1aa23dfcfe560745eeb245cda21749bc7ebacec
+SHA512: ae26bf346c708f2d95bd5d6e5b471df1b198f9ec89feb69f0f838e1bd8e390cc7d120ebabd551a3eb90d82326458d0068ccd9aa21b9dd17811b177d562829672
+
+Package: com.khacphong.auto
+Name: KP Auto (RootHide)
 Version: 0.9.64
 Architecture: iphoneos-arm64e
 Description: On-device element recording, floating controls, DATA and visual conditional workflows.
